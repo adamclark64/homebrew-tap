@@ -1,7 +1,7 @@
 class Ccmon < Formula
   desc "List running Claude Code agents & subagents, open a viewer in a new terminal tab"
   homepage "https://github.com/adamclark64/ccmon"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   depends_on "jq"
@@ -9,23 +9,23 @@ class Ccmon < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/adamclark64/ccmon/releases/download/v0.1.0/ccmon-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "8ae1bee00745b6de446aac4d49ae491ac824eb6253083dae6e69100367eb56c2"
+      url "https://github.com/adamclark64/ccmon/releases/download/v0.1.1/ccmon-0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "cf92a8fbb53b8e07b90f0eac17b4c908f1ea886aa2b437260632186a4ea92da4"
     end
     on_intel do
-      url "https://github.com/adamclark64/ccmon/releases/download/v0.1.0/ccmon-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "bcc8175dafc24f02e0e6cbb315bc7b21059a34cc92b13eb5fbf19dcb82c7f27d"
+      url "https://github.com/adamclark64/ccmon/releases/download/v0.1.1/ccmon-0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "15cb467258747d4319d2ade45735cb7f5646a1d09f10c8a72e7234580460c8eb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/adamclark64/ccmon/releases/download/v0.1.0/ccmon-0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "1d7e69b391c5a6806028788b329206098367ba43e265f40c123aef20eed7268b"
+      url "https://github.com/adamclark64/ccmon/releases/download/v0.1.1/ccmon-0.1.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "bd6e6be731bc48c7664418bf56288261666e5831ce5789bb0df1e4e36436eb2e"
     end
     on_intel do
-      url "https://github.com/adamclark64/ccmon/releases/download/v0.1.0/ccmon-0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4a99216338640ca6273dff3de966f3374c47edeaa0a1c706a1863ece44513ef2"
+      url "https://github.com/adamclark64/ccmon/releases/download/v0.1.1/ccmon-0.1.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d7007383959eac78bc6ce8bd08389c5878a2f5c821e07aa097acedb052b24656"
     end
   end
 
